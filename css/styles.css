@@ -2,16 +2,8 @@ body {
   background-color: #FAF1E6;
 }
 
-h1 {
-  text-align: center
-}
-
-h2 {
-  text-align: center
-}
-
-h3 {
-  text-align: center
+h1, h2, h3 {
+  text-align: center;
 }
 
 /* nav bar */
@@ -48,54 +40,36 @@ li a.active {
 /* dads logo */
 #logo {
   display: block;
-  margin-top: 30px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 30px auto;
   border-radius: 50%;
 }
 
 /* paragraph */
 p {
-  margin-left: auto;
-  margin-right: auto;
-  width: 20em
+  margin: 0 auto;
+  width: 20em;
 }
 
 /* dads about me pic */
-#steve {
+#steve, #carouselExampleControls {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   width: 30%;
 }
 
-/* carasel */
-#carouselExampleControls {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 30%;
-}
-
-/* section about dad */
-#AboutDad {
+/* section about dad, section dads work */
+#AboutDad, #Dadswork {
   background-color: #39A2DB;
 }
 
-/*  section dads work  */
-#Dadswork {
-  background-color: #39A2DB;
-}
-
-/* facebook icon */
+/* social media icons */
 .fa {
   padding: 20px;
   font-size: 30px;
   width: 50px;
   text-align: center;
   text-decoration: none;
-  margin-left: 200px;
-  margin-top: 100px;
+  margin: 100px 0 0 200px;
 }
 
 .fa:hover {
